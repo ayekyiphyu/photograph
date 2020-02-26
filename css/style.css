@@ -231,6 +231,13 @@ mySelect {
     margin: 0 auto;
     max-width: 534px;
 }
+/*slider*/
+.slick-carousel img {
+width: 200px;
+}
+
+
+/*end slider*/
 
 /*about*/
 .about-banner {
