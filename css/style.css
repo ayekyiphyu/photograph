@@ -137,7 +137,7 @@ ul li::before {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: auto auto auto;
-  grid-auto-columns: 100px;
+ /* grid-auto-columns: 100px;*/
   background-color: #fff;
   color: #444;
   padding: 40px;
@@ -234,8 +234,8 @@ mySelect {
 
 /*about*/
 .about-banner {
-  background-image: url("../images/about.png"),
-                  url("../images/camera.jpg");
+  background-image: url("../images/about-banner.jpg");
+  height: 400px;
   
 }
 /*about*/
