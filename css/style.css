@@ -232,8 +232,24 @@ mySelect {
     max-width: 534px;
 }
 /*slider*/
+/*
 .slick-carousel img {
 width: 200px;
+}
+*/
+.block-01 {
+  max-width: 200px;
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: azure;
+  justify-content: center;
+}
+.flex > div {
+  width: auto;
+  background: gray;
+  margin: 4px;
 }
 
 
