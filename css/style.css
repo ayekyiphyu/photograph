@@ -259,6 +259,22 @@ width: 200px;
 .about-banner {
   background-image: url("../images/about-banner.jpg");
   height: 400px;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  position: relative;
 }
+.inner-img {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+.bg-block {
+  background: #ccc;
+  width: 60%;
+  
+  position: absolute;
+  bottom: 20px;
+}
+
 /*about*/
